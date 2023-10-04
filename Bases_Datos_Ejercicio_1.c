@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	//Conexión al servidor MYSQL
 	conn = mysql_init(NULL);
 	if (conn==NULL) {
-		printf ("Error al crear la conexiￃﾳn: %u %s\n", 
+		printf ("Error al crear la conexion: %u %s\n", 
 				mysql_errno(conn), mysql_error(conn));
 		exit (1);
 	}
