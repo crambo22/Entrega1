@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 		exit (1);
 	}
 	//Indicamos la base de datos que usaremos 
-	err=mysql_query(conn, "use PARCHIS;");
+	err=mysql_query(conn, "use Registro;");
 	if (err!=0)
 	{
 		printf ("Error al crear la base de datos %u %s\n", 
